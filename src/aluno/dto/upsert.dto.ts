@@ -10,5 +10,5 @@ export class UpsertDTO{
 
     @IsNumber()
     matricula:number
-    idade
-}
+    idade:number
+}npx typeorm-ts-node-commonjs migration:generate ./migrations/CreateAluno--dataSource ./typeorm.config.ts
